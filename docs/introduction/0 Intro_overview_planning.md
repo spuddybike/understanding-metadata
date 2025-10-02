@@ -82,7 +82,7 @@ Features within each unit:
   - The importance of metadata as a user and creator
   
     
-**2.3 Metadata in data lifecycle**
+**2.3 Metadata in the research lifecycle**
 - Learning objectives
 
 
@@ -115,7 +115,7 @@ Features within each unit:
    - Standards role in upholding FAIR metadata
    - Understand how to identify correct metadata standards for your research
   
-**2.7 Creating metadata: study level**
+**2.7 Creating metadata - study level**
 - Learning objectives
 
 
