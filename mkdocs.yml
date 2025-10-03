@@ -3,7 +3,8 @@ site_name: Understanding Metadata
 theme:
   name: material
   logo: assets/closer.png
-
+  font:
+    text: Source Sans Pro
 nav:
   - Introduction module: 
     - Overview: "introduction/0 Intro_overview_planning.md"
