@@ -1,0 +1,822 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../2.5%20Controlled%20vocabularies/">
+      
+      
+        <link rel="next" href="../2.7%20Creating%20metadata%20-%20study%20level/">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.17">
+    
+    
+      
+        <title>Unit 2.6 Metadata Standards - Understanding Metadata</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.bcfcd587.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Source Sans Pro";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#overview" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Understanding Metadata" class="md-header__button md-logo" aria-label="Understanding Metadata" data-md-component="logo">
+      
+  <img src="../../assets/closer.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Understanding Metadata
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Unit 2.6 Metadata Standards
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Understanding Metadata" class="md-nav__button md-logo" aria-label="Understanding Metadata" data-md-component="logo">
+      
+  <img src="../../assets/closer.png" alt="logo">
+
+    </a>
+    Understanding Metadata
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_1" id="__nav_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Introduction module
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_1">
+            <span class="md-nav__icon md-icon"></span>
+            Introduction module
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../0%20Intro_overview_planning/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Overview
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../1.0%20Module%20Introduction/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Module Introduction
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../1.1%20Research%20data/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Research Data
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../1.2%20Research%20data%20management/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Research Data Management
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../1.3%20FAIR/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    FAIR
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2.1%20Introduction%20to%20metadata/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Introduction to Metadata
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2.3%20Metadata%20in%20the%20research%20lifecycle/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Metadata in the Research Data Lifecycle
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2.4%20Using%20metadata%20-%20discover%20data/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Using Metadata
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2.5%20Controlled%20vocabularies/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Controlled Vocabularies
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Metadata Standards
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Metadata Standards
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#intended-learning-outcomes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Intended learning outcomes
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#outline" class="md-nav__link">
+    <span class="md-ellipsis">
+      Outline
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2.7%20Creating%20metadata%20-%20study%20level/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Creating Metadata
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#intended-learning-outcomes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Intended learning outcomes
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#outline" class="md-nav__link">
+    <span class="md-ellipsis">
+      Outline
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<blockquote>
+<p>[!NOTE]
+KR I feel this unit has a lot of acquisition. Thinking of getting another activity in here. Maybe a example of how to find a metadata standard using a metadata standard catalogue. </p>
+</blockquote>
+<hr />
+<h1 id="overview">Overview</h1>
+<h2 id="intended-learning-outcomes">Intended learning outcomes</h2>
+<p>By the end of the unit you will be able to ...</p>
+<ul>
+<li>Explain what metadata standards and schemas are</li>
+<li>Understand the role metadata standards and schemas in metadata creation and management</li>
+<li>Know how to find and choose relevant metadata standards and schemas </li>
+</ul>
+<h2 id="outline">Outline</h2>
+<ul>
+<li>Overview of metadata standards and schemas</li>
+<li>The benefits of metadata standards and their role in FAIR</li>
+<li>How to find the right metadata standard for your data</li>
+</ul>
+<hr />
+<h1 id="standardising-metadata">Standardising metadata</h1>
+<p>Even within a research area, there may be different ways of saying the same thing. In the last <a href="../2.5%20Controlled%20vocabularies/">unit 2.5</a>, we looked at how controlled vocabularies can help standardise the terms used in our metadata so it becomes interoperable and machine readable.</p>
+<p>While controlled vocabularies standardise the content of metadata elements (i.e. the allowed inputs), metadata schemas and standards offer a broader framework around how to structure and define metadata elements.</p>
+<p>What is the benefit of using standards?</p>
+<details>
+<summary><b>Everyday example: three pin plug analogy</b></summary>
+<p></p>
+
+<b>Why should we standardise our data?</b>
+
+Imagine you’ve got your phone charger with a standard UK 3-pin plug. You’re at a train station in Leeds and need to charge your phone. You spot a socket, do you think your plug will fit?
+
+Then, with the same plug, could you charge your phone in a library in Southampton, a café in Cardiff or just back home? 
+
+We know our plug will work anywhere in the UK. Why? Because of standardisation.
+
+All UK plugs and sockets follow the same design rules. These rules are part of a standard set out by International Organization for Standardization in their standard ISO 4400:1994. The standard is created by experts to make sure everything fits and works safely, no matter where you are.
+
+
+What would happen if this standards didn't exist?
+- There would be different types of plugs, causing confusion and incompatability with sockets
+- You wouldn't be able to share plugs with other people
+- It would be hard to 
+
+What's the benefit of having a standard?
+- Simplifies workflows and increases efficiency
+- Enables sharing of resources
+- If a company follows a standard, they are likely to sell more products as people know they can use and trust the product
+
+</details>
+
+<p>Standards help simplify workflows and increase efficiency. As people work from the same specification, it enables clear communication and collaboraiton and reduces the risk of duplicating work or causing confusion.</p>
+<p>In this way, metadata standards and schemas help us further implement metadata best practice, increasing the consistency, quality and utility of metadata. They provide a common language so that there is a shared understanding of how data and related information is described. Standardising metadata in this way enables sharing and comparing of data across studies, supporting the FAIR data principles.</p>
+<hr />
+<h1 id="metadata-standards-and-schemas">Metadata standards and schemas</h1>
+<p>Although the terms 'metadata schemas' and 'metadata standards' are often used interchangeably, they are different. But how? </p>
+<blockquote>
+<p>[!NOTE]
+Information drawn from DDIwFAIR - reference when available and link to resource
+[^1]
+[^1]: FAIRwDDI - reference and link to resource once released</p>
+</blockquote>
+<hr />
+<h2 id="metadata-standards">Metadata standards</h2>
+<p>Metadata standards provide broad guildines around the content and structure of metadata. They act as a ready-made framework that predefine metadata elements and valid inputs, and they can also specify which controlled vocabularies to use. </p>
+<p>Metadata standards define a large range of elements that may be relevant to a specific field or resource. It is then up to the individual or organisation to use this standard to identify what metadata elements to capture. </p>
+<p>Metadata standards are created and maintained by a particular knowledge or data community. There is usually some form of governance or organisation around a standard so they can be actively reviewed, allowing the standard to grow and evolve in response to the community who will be using it. While there are a few cross-discipline standards, they are mostly discipline specific. </p>
+<p>Standards can often specify:
+- Which metadata elements are required and which are recommended
+- Which controlled vocabularies to use
+- The input type (e.g. ...) for the metadata element</p>
+<p>[^2]
+[^2]: FAIRwDDI - reference and link to resource once released</p>
+<hr />
+<h2 id="types-of-metadata-standards">Types of metadata standards</h2>
+<p>There are metadata standards which are domain agnostic and can be used across disciplines. </p>
+<p><strong>Examples of cross-discipline metadata standards...</strong>
+  - <a href="https://www.dublincore.org/">Dublin Core</a> is a standard to describe digital resources in order to help discovery 
+    - Dublin Core is commonly expressed directly as a <a href="https://www.dublincore.org/schemas/">schema</a> which are based on the Dublin Core standard
+  - <a href="https://datacite.org/what-we-do/">DataCite</a>
+    - Like Dublin Core, DataCite is commonly expressed directly as a <a href="https://schema.datacite.org/">schema</a> that is updated and based on the DataCite standard
+  - <a href="https://pbcore.org/">PBCore</a> is a standard for describing sound and moving images
+    - PBCore publish the latest schema based on their standard on <a href="https://pbcore.org/xsd">their website here</a>
+  - <a href="https://schema.org/">schema.org</a> is a standard used to describe webpages and other online resources
+    - Schema.org shares <a href="https://schema.org/docs/schemas.html">commonly used schemas</a> that are based on the metadata standard</p>
+<p>There are also metadata standards which serve specific disciplines and research areas. </p>
+<p><strong>Examples of discipline specific metadata standards...</strong>
+  - <a href="https://ddialliance.org/">Data Documentation Initiative (DDI)</a> is an international standard for describing social science data which includes a metadata specification, controlled vocabularies, and tools for working with DDI metadata
+  - <a href="https://sdmx.org/">SDMX</a> to standardise metadata for statistical data 
+  - <a href="https://www.nexusformat.org/">NeXus</a> is an international standard for neutron, x-ray, and muon experiment data</p>
+<hr />
+<h2 id="metadata-schemas">Metadata schemas</h2>
+<p>Metadata schemas are related to metadata standards and are similarly a blueprint for describing data. They are similar to metadata standards in that they specify what metadata elements to use and valid inputs, and they can also specify what controlled vocabularies to use. </p>
+<p>Organisations or an individual may create a schema for personal, internal or public use. A schema can be based on a metadata standard, drawing from the structure and definitions outlined in the standard to inform its structure and content. In this way, schemas can be seen as an expression of a standard. Whereas standards offer far reaching guidelines, schemas serve a narrower purpose outlining a more specific structure within the perameters of a standard. For example, a data repository or catalogue may provide a schema to follow in order to submit data to their site. You can also get schemas which have been developed independent of a metadata standard.</p>
+<p>Creating and using metadata schemas...
+- An individual may create their own metadata schema for a particular project
+- An individual may use a publicly available schema to create metadata for their project
+- An organisation may have an internal schema so anyone documenting information about a resource will capture the same metadata elements
+- A public repository may have a schema and require anyone wishing to deposit their data to use their schema</p>
+<p>For example, Gesis has created their <a href="https://www.ssoar.info/ssoar/bitstream/handle/document/52487/ssoar-2017-akdeniz_et_al-DDI-Lifecycle_at_the_Data_Archive.pdf?sequence=1&amp;isAllowed=y&amp;lnkname=ssoar-2017-akdeniz_et_al-DDI-Lifecycle_at_the_Data_Archive.pdf">own metadata schema</a> to document resources being upload to the Gesis Data Archive (DAS). As Gesis is focused on social science research, it has based the schema on the standard Data Documentation Initiative Alliance (DDI Alliance) which is the leading standard for metadata across social, economic, and health sciences. This means it uses metadata elements and controlled vocabularies defined by DDI within a strucutre that is specific to the archive's needs.</p>
+<blockquote>
+<p>[!NOTE]
+BO - would it be helpful to provide an example of how schemas can be created from standards e.g. we could say X standard captures XYZ metadata elements, but you might want to use ABC schema if you're only interested in capturing YZ elements. Hope that makes sense!?
+KR I have added an example but please feel free to add another if you one comes to mind.</p>
+</blockquote>
+<hr />
+<h1 id="benefits-of-metadata-standards">Benefits of metadata standards</h1>
+<p>Through standardising metadata structure and terminology, metadata standards enable the exchange of metadata between people and organisations (interoperability). It also saves you time when creating metadata as the structure and controlled inputs are already specified. That means you don't have to create a documentation system yourself.</p>
+<p>Data repositories and data catalogues specify what metadata standards and schemas to use as it enables them to organise metadata across a vast range of resources coherently. These sites are dependent on this standardisation in order to make metadata machine actionable. This is what enables people using data respositories and catalogues to search and filter (as we explore in <a href="../2.4%20Using%20metadata%20-%20discover%20data/">unit 2.4</a>. This increased exchange improves the discoverability of research (Findability) and encourages cross-study comparison and secondary research (Re-usablility).</p>
+<p>For example, have a look at these cross-study comparisons below. One of the reasons that researchers are able to conduct this work is because all of these studies use the same metadata standards. This not only makes those studies discoverable in the same data catalogue, it also allows researchers to easily compare different areas of the study so they can draw new findings and conclusions.</p>
+<p>In these examples, the studies use the DDI standard and are discoverable on the <a href="https://ukdataservice.ac.uk/find-data/browse/">UK Data Service</a> and <a href="https://discovery.closer.ac.uk/">CLOSER Discovery</a>.</p>
+<ul>
+<li><a href="https://learning.closer.ac.uk/researchcasestudies/the-rise-of-the-obesity-epidemic/">The rise of the obesity epidemic</a></li>
+<li>
+<p>This piece of research uses data drawn from new findings through comparing data across five studies...</p>
+<ul>
+<li>MRC National Survey of Health and Development (1946 British birth cohort)</li>
+<li>National Child Development Study (1958 British birth cohort)</li>
+<li>1970 British Cohort Study</li>
+<li>Avon Longitudinal Study of Parents and Children</li>
+<li>Millennium Cohort Study</li>
+</ul>
+</li>
+<li>
+<p><a href="https://learning.closer.ac.uk/researchcasestudies/childhood-environment-and-adult-mental-well-being/">Childhood environment and adult mental well-being</a></p>
+</li>
+<li>This piece of research uses data drawn from new findings through comparing data across three studies...<ul>
+<li>MRC National Survey of Health and Development</li>
+<li>1958 National Child Development Study</li>
+<li>1970 British Cohort Study</li>
+</ul>
+</li>
+</ul>
+<hr />
+<h2 id="finding-a-metadata-standard-for-you-research">Finding a metadata standard for you research</h2>
+<p>So now we know what metadata standards are, and how they can enable our (meta)data to be interoperable and reusable, but how can you find the right standard for your research?</p>
+<p><strong>Tools to find a metadata standard</strong><br>
+Metadata standard catalogues sites compile metadata standards across disciplines and allow you to search for the standard most relevant to your research.</p>
+<p>These sites include...
+- <a href="https://rdamsc.bath.ac.uk/subject-index">Metadata standards catalogue</a>
+- <a href="https://www.dcc.ac.uk/guidance/standards/metadata">DDC Metadata standards guideline</a></p>
+<p><strong>Choosing a metadata standard</strong><br>
+Things to consider when choosing a metadata standard ...<br>
+- Uptake of the metadata standard in your field
+- Ability of the metadata standard to meet your needs and aims e.g. does it capture include all / most of the metadata elements you need?
+- How regularly a metadata standard is reviewed and updated by a community</p>
+<p><strong>Why is it important to take time in finding the best metadata standard for your research?</strong> <br>
+As mentioned earlier in this unit, the power of a metadata standard increases when it is used more widely. The aim is to have one leading standard for a particular area, allowing us to simplify workflows, increase interoperability and avoid confusion. Therefore, as more people apply the standard, more data becomes interoperable and allows researchers to work from the same structure. If you do not identify which is the best metadata standard for your research, your data may be less interoperable, limiting people's ability to find your research and conduct cross-study comparisons. </p>
+<p>If you feel the existing leading metadata standard in your research field does not meet your needs and/or are limited in their reach, you should still consider working with the structure of existing metadata standards and adapting it where necessary rather than creating new standards and moving away from the aim of simplifying workflows.</p>
+<p><img src="img/14-15 standards.png" alt="Alt Text" width="425" height="900"> [^3]</p>
+<p>[^3]: XKCD https://xkcd.com/927/</p>
+<hr />
+<h2 id="finding-a-metadata-standard">Finding a metadata standard</h2>
+<p>Imagine you are a social science researcher who is about to conduct research into the availability of adult education services in the UK and people's perception of it. You want to use a metadata standard to describe your data in order to ensure the metadata is interoperable with other studies.</p>
+<p>Using the tools we had a look at above, try and find the relevant metadata standard.</p>
+<details>
+<summary><b>Metadata standard for this context</b></summary>
+<p></p>
+
+First, idenitfy the scope and focus of the research.
+
+Once you've done this, you could look at the [metadata standards catalogue](https://rdamsc.bath.ac.uk/subject-index) subject page, and navigate to the social sciences section as the main focus of our research is people's perception of availability of adult eduction services. We chose social science over education as, while the research looks at education services, the data it collects will not solely be about the educational resources. If you're not quite sure, it's always best to review both areas and check what metadata standards are available. If you click into the education area, you can find one main metadata standard [AMB (General metadata profile for educational resources)](https://rdamsc.bath.ac.uk/msc/m126) which offers a structure for describing learning and teaching resources. We can see this scope has limited applicability to the research project outlined above, so it's best to look at social science research instead.
+
+Another thing to consider is whether this data would be deposited into a data repository or catalogue, as these platforms may specify or recommend a particular metadata standard to ensure that all projects that want to deposit data with them are using the same terms and structure. In this example, as it is a social science research project, we would need to find a leading social science data respoitory and/or catalogue. Thinking back to [unit 2.4](<2.4 Using metadata - discover data.md>), you can use sites such as re3data.org or FAIRsharing.org to find relevant catalogues.
+
+</details>
+
+<p>Now try finding a relevant metadata standard and/or schema for your area of research.</p>
+<hr />
+<h1 id="test-your-knowledge">Test your knowledge</h1>
+<hr />
+<h1 id="references">References</h1>
+<hr />
+<blockquote>
+<p>[!NOTE]
+Should we include the analogy below in this unit or do we feel the above information works ok?
+BO - I think real world examples are always helpful. We could add it right to the start before we go into standards in the research context?</p>
+<p>[!NOTE]
+Standardisation increases efficiency and simplifies workflows
+Economic of scale argument</p>
+</blockquote>
+<hr />
+<h2 id="why-should-we-use-standards">Why should we use standards?</h2>
+<hr />
+<h2 id="references_1">References</h2>
+<ul>
+<li>UK Data Service (2025) <em>Metadata</em> Available at: https://ukdataservice.ac.uk/learning-hub/research-data-management/document-your-data/metadata/</li>
+<li>NBISweden (2020) <em>Metadata standards</em> Available at: https://nbisweden.github.io/module-metadata-dm-practices/03-metadata-standards/index.html</li>
+</ul>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.1e8ae164.min.js"></script>
+      
+    
+  </body>
+</html>

@@ -1,0 +1,1016 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../2.1%20Introduction%20to%20metadata/">
+      
+      
+        <link rel="next" href="../2.4%20Using%20metadata%20-%20discover%20data/">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.17">
+    
+    
+      
+        <title>Unit 2.3 Metadata in the data lifecycle - Understanding Metadata</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.bcfcd587.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Source Sans Pro";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#overview" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Understanding Metadata" class="md-header__button md-logo" aria-label="Understanding Metadata" data-md-component="logo">
+      
+  <img src="../../assets/closer.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Understanding Metadata
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Unit 2.3 Metadata in the data lifecycle
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Understanding Metadata" class="md-nav__button md-logo" aria-label="Understanding Metadata" data-md-component="logo">
+      
+  <img src="../../assets/closer.png" alt="logo">
+
+    </a>
+    Understanding Metadata
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_1" id="__nav_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Introduction module
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_1">
+            <span class="md-nav__icon md-icon"></span>
+            Introduction module
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../0%20Intro_overview_planning/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Overview
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../1.0%20Module%20Introduction/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Module Introduction
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../1.1%20Research%20data/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Research Data
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../1.2%20Research%20data%20management/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Research Data Management
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../1.3%20FAIR/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    FAIR
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2.1%20Introduction%20to%20metadata/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Introduction to Metadata
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Metadata in the Research Data Lifecycle
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Metadata in the Research Data Lifecycle
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#intended-learning-outcomes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Intended learning outcomes
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#outline" class="md-nav__link">
+    <span class="md-ellipsis">
+      Outline
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2.4%20Using%20metadata%20-%20discover%20data/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Using Metadata
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2.5%20Controlled%20vocabularies/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Controlled Vocabularies
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2.6%20Metadata%20standards/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Metadata Standards
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2.7%20Creating%20metadata%20-%20study%20level/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Creating Metadata
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#intended-learning-outcomes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Intended learning outcomes
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#outline" class="md-nav__link">
+    <span class="md-ellipsis">
+      Outline
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<hr />
+<h1 id="overview">Overview</h1>
+<h2 id="intended-learning-outcomes">Intended learning outcomes</h2>
+<p>By the end of the unit, you'll be able to...</p>
+<ul>
+<li>Identify the different stages of the research lifecycle</li>
+<li>List research actvities across the research lifecycle</li>
+<li>Understand where in the research cycle you may create and / or use metadata</li>
+<li>Understand the benefits of creating and using metadata in the research lifecycle</li>
+</ul>
+<h2 id="outline">Outline</h2>
+<ul>
+<li>Unpacking the research lifecycle: stages and activities</li>
+<li>Uncover how metadata supports the research lifecycle</li>
+<li>When do you create metadata in research lifecycle </li>
+<li>When do you use metadata in research lifeycle</li>
+<li>How metadata helps create provenance (the historical footprint of your research)</li>
+</ul>
+<hr />
+<h1 id="research-lifecycle">Research lifecycle</h1>
+<p>Imagine you're planning a research project from beginning to end.</p>
+<p>What are the different steps involved in this project? These steps are different stages of the research  lifecycle, which encapsulates the whole journey of research. </p>
+<p>Try breaking down the research lifecycle into 6 steps and think about what research activities might happen at each step.</p>
+<p>For example, the first step might be Research Design.</p>
+<p>Activities within Research Design could be:
+- Decide roles and responsibilities in the research project
+- Refine what your research project will aim to address
+- Set out a timeline for the research project
+- Confirm funding streams for research project
+- Data usage information
+- Create a Data Management Plan that includes the above information as well as the strategies to manage data throughout the research project</p>
+<hr />
+<h2 id="6-stages-of-the-research-lifecycle">6 stages of the research lifecycle</h2>
+<p>In this unit, we've labelled the 6 stages of the research lifecycle as... </p>
+<p><strong>Design &rarr; Data collection &rarr; Data management &rarr; Archive &amp; disseminate &rarr; Analysis &rarr; Publication</strong></p>
+<p>Click below to see the type of activities that might be included in each stage.</p>
+<details>
+<summary><b>Data collection</b></summary>
+<p></p> 
+
+- Complete ethics forms 
+- Design and implement surveys
+- Organise and conduct focus groups
+- Conduct experiment or observational tasks
+- Carry out field research 
+- Collect secondary resources and/or datasets
+- Collect data from automatic capture, e.g. data recorded by machines such as health data
+</details>
+
+<details>
+<summary><b>Data management</b></summary>
+<p></p> 
+
+- Clean data and integrate it with other relevant datasets
+- Convert data into reliable and commonly used formats
+- Ensure restricted access data is encrypted and protected
+- Back-up data and implement data recovery strategies
+- Create robust data documentation capturing information about data, data collection processes and the research project as a whole
+
+</details>
+
+<details>
+<summary><b>Archive & disseminate</b></summary>
+<p></p> 
+
+- Store data in trusted archives and/or repositories
+- Share information about the research through outlets such as workshops, webinars, blogs, public talks 
+
+</details>
+
+<details>
+<summary><b>Analysis</b></summary>
+<p></p> 
+
+- Apply statistical test and models to gain findings from the data
+- Thematic and discourse analysis
+- Create data visualisations such as graphs and charts
+
+</details>
+
+<details>
+<summary><b>Publication</b></summary>
+<p></p> 
+
+- Writing and submitting papers for peer-review and publication
+- Deliver conference presentations
+- Produce publication documentation that can be used for citations
+
+</details>
+
+<p>You may have come up with similar steps or something slightly different, for example the <a href="https://ukdataservice.ac.uk/learning-hub/research-data-management/">UK Data Service</a> has its own interpretation of the research data lifecycle. The steps above are are based on the GSBPM Data Lifecycle Model. While the title of the stages may change, they often encapsulate similar flow of research activities. The research lifecycle is often concieved as a circle. Why do you think that is? </p>
+<p><img src="img/data-lifecycle.png" width="370" height="320"></p>
+<details>
+<summary><b>Research data lifecycle: a circle</b></summary>
+<p></p> 
+
+By placing the research lifecycle stages in a circle, we highlight the idea that research is an ever evolving process. Data, and the documentation around that data, can be updated or added to. As research processes are complex, you may go through the lifecycle stages multiple times in a single project. 
+
+Data has the potential to serve many research activities beyond the original study. With good data practices, existing data can lead to new research questions, secondary research and cross-study comparisons, enabling the lifecycle to start again.
+
+</details>
+
+<details>
+<summary><b>Which stage includes metadata?</b></summary>
+<p></p> 
+
+All of them! Metadata is a vital tool throughout research lifecycle. Having strong metadata helps people outside a project who are engaging with research data (metadata users), as well as researchers and data managers within a project who are managing data (metadata creators). 
+
+With that in mind, the creation, management, and use of metadata should be integrated in all areas of the research lifecycle.
+
+</details>
+
+<blockquote>
+<p>[!NOTE]
+KR Other lifecycles UKDS: <a href="https://ukdataservice.ac.uk/learning-hub/research-data-management/">Data lifecycle</a> which has a corresponding <a href="https://youtu.be/-wjFMMQD3UA">training video here.</a> <br>
+<a href="https://sunyolis.libguides.com/c.php?g=1290338&amp;p=9475793#:~:text=Research%20Data%20Management%20is%20a,at%20the%20Plan%20%26%20Design%20phase.">LMA Research Data Management Working group</a></p>
+<p>[!NOTE]
+BO - should analysis come before Archive &amp; disseminate and after data management?<br>
+KR - with the model concieved using GSBPM, analysis comes after dissemination. However, open to discussion on that one!</p>
+</blockquote>
+<hr />
+<h2 id="using-metadata-design-and-collect-stages">Using metadata: design and collect stages</h2>
+<p>First, let's look at how we <strong>use</strong> metadata in the research lifecycle.</p>
+<p>Metadata from other research projects can also be a crucial tool in the <strong>Research Design and Data Collection stages</strong>.</p>
+<p>If you're doing primary research, looking at previous research in the design phase can help inform your study design and data collection method. You may also need to identify existing research and datasets as part of your literature review.</p>
+<p>If you're doing secondary research, finding the right datasets for your project is a core part of the data collection stage. You may also need to find data for other forms of enquiry outside of the research space, for example for policy briefings.</p>
+<p>Finding the right data can be time consuming. If datasets have incomplete or low quality metadata, it can be hard to locate them, know what data they contain, and whether it will be useful for you. It's also difficult to understand how your study could build on existing research.</p>
+<p>In the next <a href="../2.4%20Using%20metadata%20-%20discover%20data/">unit 2.4</a>, we look further into how we can use metadata to discover and understand other research projects. However, thinking about the research activities above, how might you use metadata from other research projects to help you conduct a literature review or identify datasets that you could use in secondary research?</p>
+<details>
+<summary><b>Ways we can use metadata to help us in the design phase</b></summary>
+<p></p> 
+
+**Metadata can help us discover research**
+
+When robust metadata is available, you can search data repositories such [UK Data Service](https://beta.ukdataservice.ac.uk/datacatalogue/studies/) or metadata catalogues such as [CLOSER Discovery](https://discovery.closer.ac.uk/?utm_medium=referral&utm_source=www.closer.ac.uk&utm_campaign=Menu%20-%20search%20our%20data%20) to discover datasets effecitvely. It's the project's metadata which enable the filter and search functions of these sites. 
+
+**Metadata can help us understand what a research project is about**
+
+When you want to look into a dataset more closely, metadata helps you quickly understand what the data is about and how the research was conducted. It provides information on who produced the data and how the research was funded.
+
+**Metadata can tell us how to access data**
+
+Metadata lets you know how to access data and who to contact if you have further questions around the research project.
+
+</details>
+
+<hr />
+<h2 id="creating-metadata-in-the-research-lifecycle">Creating metadata in the research lifecycle</h2>
+<p>Next, let's look at how <strong>creating</strong> metadata can help the research lifecycle.</p>
+<p>Research can be a disconnected process. Information about data or research activities can be lost at different stages or stored in silos. This may be because infomration is stored within smaller teams or on an individual's hardrive rather than a centralised space.</p>
+<p>Trying to collect information about a research project at the end of the project can be time consuming and inaccurate, as you have to work from memory or compile different documentation files stored in different places.</p>
+<p>By creating metadata, we build a coherent story of the data, documenting the research process from the very start. This documentation is centralised so everyone can access the up-to-date information about a project. For large research teams, this can be a great tool for ensuring people are on the same page. For an external individual engaging with your research, seeing strong metadata will demonstrate the project's transparency and increase its trustworthiness, meaning they're more likely to cite and re-use the data.</p>
+<p>Explore some of the benefits below.</p>
+<details>
+<summary><b>Metadata connects the research process</b></summary>
+<p></p> 
+
+Metadata can connect and accumulate information throughout the research process, building on previous information to document the whole data lifecycle in a coherent way, benefitting people both within a research project and externally.
+
+</details>
+
+<details>
+<summary><b>Metadata documents different versions and iterations of data</b></summary>
+<p></p> 
+
+Metadata captures when data or the documentation around data are updated or changed, creating strong provenance. This gives a clear picture of the evolution of (meta)data in a research project and beyond, increasing it's transparency and credibility. 
+
+</details>
+
+<details>
+<summary><b>Creating metadata throughout each stage of the research data lifecycle saves time</b></summary>
+<p></p>
+
+Creating metadata from the very start of the research data lifecycle allows you to build on information you've already captured and re-use metadata terms where necessary. This not only saves you time but ensures your metadata is consistent. Creating metadata as it happens further increases it's quality, as you capture information while it's fresh, rather than trying to remember all the details at the end of a research project.
+
+</details>
+
+<hr />
+<h2 id="map-the-metadata-to-the-research-lifecycle-stage">Map the metadata to the research lifecycle stage</h2>
+<p>While metadata should be created and updated throughout the research lifecycle, what type of metadata you capture will depend on what stage of the research lifecycle your in. For example, if you've just started your research and you're in the Research Design stage, you'll not be able to capture metadata about data such as number of invalid cases as you won't have collected your data yet!</p>
+<p>Looking at the metadata elements below, at what stage of the research lifecycle do you think we'll be able to capture this information?</p>
+<ul>
+<li>Author(s)</li>
+<li>Abstract</li>
+<li>Variable label</li>
+<li>Number of cases</li>
+<li>Invalid cases for a variable</li>
+<li>Question title</li>
+<li>Version</li>
+<li>Funding body</li>
+<li>Unit of measurement for a variable</li>
+</ul>
+<details>
+<summary><b>Answer</b></summary>
+<p></p> 
+
+Author(s)
+- Research Design phase: you could capture this information at the begining of the research lifecycle in the Research Design phase. However, you may wish to update this if more people join your research project. It's especially important that this information is correct when you come to the Publication phase.
+
+Abstract
+- You would most likely write an abstract at the publication stage as it is a tool to help other people can an overview of your entire research effort.
+
+Variable label
+- You could capture this metadata at the research design or data collection stage.
+
+Number of cases
+- You could capture this metadata at the analysis stage.
+
+Invalid cases for a variable
+- You would capture this at the analysis stage.
+
+Question title
+- You could capture this metadata at the research design or data collection stage.
+
+Version
+- You would create this metadata in the data collection stage, but it's important this information is updated throughout the research lifecycle and beyond.
+
+Funding body
+- You can caputre this in your Research Design phase and update it as necessary if new funders support your project.
+
+Unit of measurement for a variable
+- This metadata can be captured in the data collection stage.
+
+</details>
+
+<blockquote>
+<p>[!NOTE]
+BO - We could have an activity earlier on where we list different types of metadata and ask them to map them onto the research data lifecycle. This might help them consolidate ideas around what metadata can look like e.g. a high-level overview of the project (PI, funder) at the design stage, information about the questions asked at the data collection stage, information about the variables at the data analysis stage, etc. <p></p>
+:large_blue_diamond: KR Really like that idea, have moved this note to new section for this activity.</p>
+</blockquote>
+<hr />
+<h1 id="creating-provenance-through-the-research-lifecycle">Creating provenance through the research lifecycle</h1>
+<p>By creating metadata from the beginning of the research lifecycle and throughout, you build robust data provenance for a research project.</p>
+<p>Provenance is a type of metadata that captures the historical record of data as it moves through various stages, processes, and transformations in the research lifecycle. Provenance metadata describes how the data came about (for example, what measurement tool used or whether it was </p>
+<p>The quality of your research's provenance will increase as you continue to manage and update your metadata, as it gives a clear footprint of your research project including where the data has come from, how it came about and any changes made.</p>
+<p><img src="img/Data_lifecycle_MD_circles.png" alt="Alt Text" width="360" height="380"></p>
+<p>CODATA defines provenance as ...</p>
+<blockquote>
+<p>A type of historical information or metadata about the origin, location or the source of something, or the history of the ownership or location of an object or resource including digital objects. For example, information about theb Principal Investigator who recorded the data, and the information concerning its storage, handling, and migration.</p>
+<p>[!NOTE]
+KR might be useful to include the metadata elements that are consdiered to be most related to captuing provenance, unless we feel that should be the aim across all metadata.</p>
+<p>[!NOTE]
+GSBPM data lifecycle model is used above</p>
+</blockquote>
+<p>::: notes
+Data provenance: https://www.ibm.com/think/topics/data-provenance
+Data Provenance Metadata: https://ardc.edu.au/article/data-provenance-metadata-builds-trust-credibility-and-reproducibility/#:~:text=Data%20provenance%2C%20a%20type%20of,whom%20the%20data%20is%20collected.</p>
+<hr />
+<h2 id="provenance-metadata">Provenance metadata</h2>
+<p>Look at two sets of metadata for the same example dataset.</p>
+<p>Which one has caputres provenance metadata?</p>
+<p><strong>Example one</strong></p>
+<table>
+<thead>
+<tr>
+<th>Metadata element</th>
+<th>Dataset metadata</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Data collection date</td>
+<td>2023</td>
+</tr>
+<tr>
+<td>Data collection method</td>
+<td>Questionnaire</td>
+</tr>
+<tr>
+<td>Data collection instrument</td>
+<td>"Community Health Questionnaire"</td>
+</tr>
+<tr>
+<td>Version</td>
+<td>--</td>
+</tr>
+<tr>
+<td>Last updated</td>
+<td>2024</td>
+</tr>
+<tr>
+<td>Change log</td>
+<td>--</td>
+</tr>
+<tr>
+<td>Related publications</td>
+<td>Public Health Journal</td>
+</tr>
+<tr>
+<td>Repository</td>
+<td>Not specified</td>
+</tr>
+<tr>
+<td>Storage</td>
+<td>DDI</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Example two</strong></p>
+<table>
+<thead>
+<tr>
+<th>Metadata element</th>
+<th>Dataset metadata</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Data collection date</td>
+<td>March – June 2023</td>
+</tr>
+<tr>
+<td>Data collection method</td>
+<td>Online questionnaire</td>
+</tr>
+<tr>
+<td>Data collection instrument</td>
+<td>"Community Health Questionnaire v2.3"</td>
+</tr>
+<tr>
+<td>Version</td>
+<td>Version 1.4 (edition history here)</td>
+</tr>
+<tr>
+<td>Last updated</td>
+<td>05/12/2024</td>
+</tr>
+<tr>
+<td>Change log</td>
+<td>Category names for variable G123 updated</td>
+</tr>
+<tr>
+<td>Related publications</td>
+<td>Smith, L. et al. (202). "Urban Health Trends". Public Health Journal</td>
+</tr>
+<tr>
+<td>Repository</td>
+<td>World Health Repository</td>
+</tr>
+<tr>
+<td>Storage</td>
+<td>DDI 3.3</td>
+</tr>
+</tbody>
+</table>
+<details>
+<summary><b>Comparing example metadata</b></summary>
+<p></p> 
+
+Both datasets contain metadata elements that can capture a study's provenance. However, the lack of detail and missing information in example one makes the provenance weaker.
+
+Comparatively in example 2, we are given more specific information for example 'March-June 2023' rather than just '2023' for the data collection date. We are also provided with version information and the date the metadata was last updated.
+
+</details>
+
+<details>
+<summary><b>Why do you think having provenance metadata is important?</b></summary>
+<p></p> 
+
+Provenance enhances transparency, trust, credibility and reproducibility of data by providing details such as who created the data, the history of modifications and who made those changes.
+
+</details>
+
+<blockquote>
+<p>[!NOTE]
+In order to break up acquisition, we could do a comparison between two metadata sets, one has good provenance and one doesn't? We could ask participants which one they would trust most and why <br>
+BO - Agree. I like the idea comparison activity idea.
+https://ardc.edu.au/article/data-provenance-metadata-builds-trust-credibility-and-reproducibility/#:~:text=Data%20provenance%2C%20a%20type%20of,whom%20the%20data%20is%20collected.</p>
+</blockquote>
+<hr />
+<h1 id="research-lifecycle-resources">Research lifecycle resources</h1>
+<p>If you want to explore the research lifecycle in more detail, take a look at these resources.</p>
+<ul>
+<li>The RDM Kit have broken down the different stages of <a href="https://rdmkit.elixir-europe.org/data_life_cycle">the data lifecycle here</a></li>
+<li>You can explore an interactive data lifecycle tool on <a href="https://dmeg.cessda.eu/Data-Management-Expert-Guide">CESSDA's DMEG here</a></li>
+<li>Explore UK Data Service's conception of <a href="https://ukdataservice.ac.uk/learning-hub/research-data-management/">data lifecycle here</a></li>
+<li><a href="https://sunyolis.libguides.com/c.php?g=1290338&amp;p=9475793#:~:text=Research%20Data%20Management%20is%20a,at%20the%20Plan%20%26%20Design%20phase.">Office of Library and Information Services Data lifecycle</a></li>
+<li><a href="https://rdm.univie.ac.at/what-is-research-data-management/the-research-data-lifecycle/">University of Vienna: the research data lifecycle</a></li>
+</ul>
+<hr />
+<h1 id="test-your-knowledge">Test your knowledge</h1>
+<hr />
+<h1 id="references">References</h1>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.1e8ae164.min.js"></script>
+      
+    
+  </body>
+</html>
