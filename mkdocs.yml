@@ -6,7 +6,7 @@ theme:
   font:
     text: Source Sans Pro
 nav:
-  - Introduction module: 
+  - Introductory module: 
     - Module Introduction: "introduction/1.0 Module Introduction.md"
     - Research Data: "introduction/1.1 Research data.md"
     - Research Data Management: "introduction/1.2 Research data management.md"
@@ -17,7 +17,8 @@ nav:
     - Controlled Vocabularies: "introduction/2.4 Controlled vocabularies.md"
     - Metadata Standards: "introduction/2.5 Metadata standards.md"
     - Summary: "introduction/2.7 Introduction summary.md"
-    
+  - Foundational module:     
+  
 markdown_extensions:
   - pymdownx.superfences:
       custom_fences:
