@@ -18,3 +18,9 @@ nav:
     - Metadata Standards: "introduction/2.5 Metadata standards.md"
     - Summary: "introduction/2.7 Introduction summary.md"
     
+markdown_extensions:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
