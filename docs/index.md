@@ -6,11 +6,8 @@ This is an evolving resource developed by CLOSER's Metadata team to create teach
 
 If you find any errors or want to suggest improvements, please post an issue at https://closer-cohorts.github.io/understanding-metadata/](https://github.com/CLOSER-Cohorts/understanding-metadata/issues
 
+<hr>
 
-
-
-
----
 ## Reusing Materials
 
 We encourage reuse of these materials, if you do so, please respect the licencing, and let us know
@@ -21,7 +18,7 @@ If you reference the work:, please use the following citation
 
 Mills, H., Johnson, J., Oldroyd, R., White, S., & Reed, K. (2025). Understanding Metadata (Version 1.0) [Computer software]. https://github.com/CLOSER-Cohorts/understanding-metadata
 
-## BIBTEX
+### BIBTEX
 
 @software{Mills_Understanding_Metadata_2025,
 author = {Mills, Hayley and Johnson, Jon and Oldroyd, Rebecca and White, Sarah and Reed, Kate},
@@ -33,7 +30,7 @@ version = {1.0},
 year = {2025}
 }
 
----
+<hr>
 
 Shield: [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
 
