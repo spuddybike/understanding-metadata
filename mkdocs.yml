@@ -7,15 +7,14 @@ theme:
     text: Source Sans Pro
 nav:
   - Introduction module: 
-    - Overview: "introduction/0 Intro_overview_planning.md"
     - Module Introduction: "introduction/1.0 Module Introduction.md"
     - Research Data: "introduction/1.1 Research data.md"
     - Research Data Management: "introduction/1.2 Research data management.md"
     - FAIR: "introduction/1.3 FAIR.md"
     - Introduction to Metadata: "introduction/2.1 Introduction to metadata.md"
-    - Metadata in the Research Data Lifecycle: "introduction/2.3 Metadata in the research lifecycle.md"
-    - Using Metadata: "introduction/2.4 Using metadata - discover data.md"
-    - Controlled Vocabularies: "introduction/2.5 Controlled vocabularies.md"
-    - Metadata Standards: "introduction/2.6 Metadata standards.md"
-    - Creating Metadata: "introduction/2.7 Creating metadata - study level.md"
+    - Metadata in the Research Data Lifecycle: "introduction/2.2 Metadata in the research lifecycle.md"
+    - Using Metadata: "introduction/2.3 Using metadata - discover data.md"
+    - Controlled Vocabularies: "introduction/2.4 Controlled vocabularies.md"
+    - Metadata Standards: "introduction/2.5 Metadata standards.md"
+    - Summary: "introduction/2.7 Introduction summary.md"
     
