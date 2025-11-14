@@ -16,9 +16,7 @@ nav:
     - Using Metadata: "introduction/2.3 Using metadata - discover data.md"
     - Controlled Vocabularies: "introduction/2.4 Controlled vocabularies.md"
     - Metadata Standards: "introduction/2.5 Metadata standards.md"
-    - Summary: "introduction/2.7 Introduction summary.md"
-  - Foundational module:     
-  
+    - Summary: "introduction/2.7 Introduction summary.md"  
 markdown_extensions:
   - pymdownx.superfences:
       custom_fences:
