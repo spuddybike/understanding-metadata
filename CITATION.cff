@@ -11,14 +11,14 @@ authors:
     orcid: "https://orcid.org/0000-0001-9503-1149"
   - family-names: Oldroyd
     given-names: Rebecca
-    orcid: "https://orcid.org/0000-0001-9309-9510
+    orcid: "https://orcid.org/0000-0001-9309-9510"
   - family-names: White
     given-names: Sarah
   - family-names: Reed
     given-names: Kate
 date-released: 2025-12-01
-license: CC BY-NC-SA
+license: "CC BY-NC-SA"
 repository-code: "https://github.com/CLOSER-Cohorts/understanding-metadata"
 title: "Understanding Metadata"
-url: https://closer-cohorts.github.io/understanding-metadata/
+url: "https://closer-cohorts.github.io/understanding-metadata/"
 version: "1.0"
