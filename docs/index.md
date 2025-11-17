@@ -12,10 +12,11 @@ If you find any errors or want to suggest improvements, please [post an issue at
 
 We are running a [short survey]() to get more general feedback, if you are able to find 10 minutes,
 
+<hr>
 
-## Reusing Materials
+## Reusing our Materials
 
-We encourage reuse of these materials, if you do so, please respect the licencing, and let us know
+We encourage reuse of these materials, if you do so, please respect the licencing, and let us know how you are using it.
 
 If you reference the work:, please use the following citation
 
