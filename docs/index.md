@@ -4,9 +4,14 @@
 
 This is an evolving resource developed by CLOSER's Metadata team to create teaching and upskilling resources to improve the understanding of metadata to support the better use and understanding of research data.
 
-If you find any errors or want to suggest improvements, please [post an issue at](https://closer-cohorts.github.io/understanding-metadata/](https://github.com/CLOSER-Cohorts/understanding-metadata/issues)
+If you find any errors or want to suggest improvements, please [post an issue at](https://github.com/CLOSER-Cohorts/understanding-metadata/issues)
 
 <hr>
+
+## Feedback on the site
+
+We are running a [short survey]() to get more general feedback, if you are able to find 10 minutes,
+
 
 ## Reusing Materials
 
