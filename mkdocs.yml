@@ -5,6 +5,9 @@ theme:
   logo: assets/closer.png
   font:
     text: Source Sans Pro
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
 nav:
   - Introduction to Metadata course: 
     - Course introduction: "introduction/1.0 Module Introduction.md"
