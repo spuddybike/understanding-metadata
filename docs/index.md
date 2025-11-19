@@ -18,16 +18,16 @@ We are running a [short survey]() to get more general feedback, if you are able 
 
 We encourage reuse of these materials, if you do so, please respect the licencing, and let us know how you are using it.
 
-If you reference the work:, please use the following citation
+If you reference the work: please use the following citation
 
 ### APA
 
-Mills, H., Johnson, J., Oldroyd, R., White, S., & Reed, K. (2025). Understanding Metadata (Version 1.0) [Computer software]. https://github.com/CLOSER-Cohorts/understanding-metadata
+Mills, H., Oldroyd, R., Johnson, J., White, S., & Reed, K. (2025). Understanding Metadata (Version 1.0) [Computer software]. https://github.com/CLOSER-Cohorts/understanding-metadata
 
 ### BIBTEX
 
 @software{Mills_Understanding_Metadata_2025,
-author = {Mills, Hayley and Johnson, Jon and Oldroyd, Rebecca and White, Sarah and Reed, Kate},
+author = {Mills, Hayley and Oldroyd, Rebecca and Johnson, Jon and White, Sarah and Reed, Kate},
 license = {CC-BY-NC-SA},
 month = dec,
 title = {{Understanding Metadata}},
