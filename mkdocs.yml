@@ -4,8 +4,7 @@ theme:
   name: material
   logo: assets/closer.png
   font:
-    text: Source Sans Pro
-    
+    text: Source Sans Pro  
 nav:
   - Introduction to Metadata course: 
     - Course introduction: "introduction/1.0 Module Introduction.md"
