@@ -2,12 +2,12 @@ site_name: Understanding Metadata
 
 theme:
   name: material
-  features:
-    - navigation.expand
-    - navigation.sections
   logo: assets/closer.png
   font:
     text: Source Sans Pro
+  features:
+    - navigation.expand
+    - navigation.sections
 nav:
   - Introduction to Metadata course: 
     - Course introduction: "introduction/1.0 Module Introduction.md"
