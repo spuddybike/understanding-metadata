@@ -79,3 +79,15 @@ www.howtofair.dk/how-to-fair/metadata/
 - University of Pittsburgh (2025) _Metadata & Discovery_ www.pitt.libguides.com/metadatadiscovery/
 - University of Sheffield (2025) _FAIR case studies: good practice on FAIR data and software_ www.sheffield.ac.uk/openresearch/faircasestudies
 - Van den Eynden, V. (2020) _Exercise: FAIRness of a dataset._ UK: UK Data Service. www.https://ukdataservice.ac.uk/app/uploads/exercise_fairdata.pdf
+
+## Metadata in the research lifecycle 
+
+- Australian Research Data Commons (2025) _Data Provenance Metadata: Builds Trust, Credibility and Reproducibility_  www.ardc.edu.au/article/data-provenance-metadata-builds-trust-credibility-and-reproducibility/#:~:text=Data%20provenance%2C%20a%20type%20of,whom%20the%20data%20is%20collectedELIXIR (2025) _Research Data Management Toolkit_ www.rdmkit.elixir-europe.org/data_life_cycle
+- CESSDA (2025) _Data Management Expert Guide_ www.dmeg.cessda.eu/Data-Management-Expert-Guide
+- United Nations Economic Commission for Europe (2025) _'eneric Statistical Business Process Model (GSBPM)' _Switzerland: UNECE_ https://unece.org/sites/default/files/2025-06/GSBPM%20v5.2%20with%20further%20amendments.pdf
+- Havard Medical School (2025) _Harvard Biomedical Data Management_ www.datamanagement.hms.harvard.edu/
+- IBM (2025) _What is data provenance?_ www.ibm.com/think/topics/data-provenance
+- Office of Library and Information Services (2025) _Data Lifecycle Stages_ www.sunyolis.libguides.com/c.php?g=1290338&p=9475793#:~:text=Research%20Data%20Management%20is%20a,at%20the%20Plan%20%26%20Design%20phase
+- UK Data Service (2025) _Research data management_ www.ukdataservice.ac.uk/learning-hub/research-data-management/
+- UK Data Service (2019) _Research Data Lifecycle_ [Online Video] www.youtu.be/-wjFMMQD3UA
+- University of Vienna (2025) _The research data lifecycle_ www.rdm.univie.ac.at/what-is-research-data-management/the-research-data-lifecycle/
