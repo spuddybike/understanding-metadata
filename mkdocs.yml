@@ -25,6 +25,7 @@ nav:
     - Unit 2.7 Summary: "introduction/2.7 Introduction summary.md"  
 markdown_extensions:
   - admonition
+  - attr_list
   - pymdownx.details
   - pymdownx.superfences:
       custom_fences:
