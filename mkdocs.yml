@@ -7,6 +7,9 @@ theme:
   logo: assets/closer.png
   font:
     text: Source Sans Pro  
+  icon:
+    admonition:
+      <type>: <icon>
 nav:
   - Introductory course: 
     - Getting started: "introduction/1.0 Module Introduction.md"
