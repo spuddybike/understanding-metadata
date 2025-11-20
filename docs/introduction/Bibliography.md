@@ -20,4 +20,35 @@
 - LEARN, . (Ed). (2017) LEARN Toolkit of Best Practice for Research Data Management. [Online] Leaders Activating Research Networks (LEARN) Available at: 10.14324/000.learn.00
 - NYU Health Sciences Library (2012) Data Sharing and Management Snafu in 3 Short Acts [Online video] https://www.youtube.com/watch?v=N2zK3sAtr-4
 - MANTRA, University of Edinburgh (2025) MANTRA Training https://mantra.ed.ac.uk/datamanagementplanning/
-- Office of Scholarly Communication, Cambridge (2018) Research in 3 Minutes: Research Data Management https://mantra.ed.ac.uk/datamanagementplanning/ "
+- Office of Scholarly Communication, Cambridge (2018) Research in 3 Minutes: Research Data Management https://mantra.ed.ac.uk/datamanagementplanning/
+
+## Unit 1.3 FAIR Data principles 
+
+- ARDC (2025) _FAIR Data Self-assessment Tool_ www.ardc.edu.au/resource/fair-data-self-assessment-tool/
+- Creative Commons (2025) _About CC Licenses_ www.creativecommons.org/share-your-work/cclicenses/
+- Creative Commons (2025) _Choose a License for Your Work_ www.chooser-beta.creativecommons.org/
+- D.B. Deutz, M.C.H. Buss, J. S. Hansen, K. K. Hansen, K.G. Kjelmann, A.V. Larsen, E. Vlachos, K.F. Holmstrand (2020). _How to FAIR: a Danish website to guide researchers on making research data more FAIR_ www.doi.org/10.5281/zenodo.3712065
+- European Commission:Directorate-General for Research & Innovation (2016) _H2020 Programme Guidelines on FAIR Data Management in Horizon 2020_ v3.0. Luxembourg, European Commission, Directorate-General for Research & Innovation www.ec.europa.eu/research/participants/data/ref/h2020/grants_manual/hi/oa_pilot/h2020-hi-oa-data-mgt_en.pdf
+- Go FAIR (2025) _FAIR Principles_ www.go-fair.org/fair-principles/
+- Grootveld, M., Jones, S. (2017) 'How FAIR are your data?' _EUDAT_ www.zenodo.org/records/1065991
+- Matthias Liffers, Liz Stokes, Nichola Burton & Paula Andrea Martinez (2021) _ARDC FAIR Data 101 self-guided_ www.github.com/au-research/FAIR-data-101-training DOI: 10.5281/zenodo.5094034
+- Maastricht University (2020) _The FAIR principles explained_ www.youtube.com/watch?v=5OeCrQE3HhE
+- MANTRA (2025) _FAIR sharing and access training_ www.mantra.ed.ac.uk/fairsharingandaccess/
+- OpenAIre (2025) _How to make your data FAIR_ www.openaire.eu/how-to-make-your-data-fair
+- OpenAIRE (2025) _How to find a trustworthy repository for your data_ www.openaire.eu/find-trustworthy-data-repository
+  Open Knowledge (2025) _Open Data Editor_ www.opendataeditor.okfn.org/
+- OpenRefine (2025) _OpenRefine_ www.openrefine.org/
+- Open University (2025) _FAIR Principles_ www.university.open.ac.uk/library-research-support/research-data-management/fair-principles
+- Orchid ID (2025) _ORCHID ID_ www.orcid.org/
+- Orchid ID (2025) _What are persistent identifiers (PIDs)?_ www.support.orcid.org/hc/en-us/articles/360006971013-What-are-persistent-identifiers-PIDs#:~:text=in%20this%20section-,What%20are%20persistent%20identifiers%20(PIDs)%3F,points%20to%20a%20digital%20entity.
+- Parthenos (2025) _Manage, Improve and Open up your Research and Data_ www.training.parthenos-project.eu/sample-page/manage-improve-and-open-up-your-research-and-data/
+- Shigapov, R (2023, May 30) _FAIR Data Week: F for Findable. FAIR Data Week_ Online: Zenodo www.doi.org/10.5281/zenodo.7984881
+- Shigapov, R (2023, May 30) _FAIR Data Week: A for Accessible. FAIR Data Week_ Online: Zenodo www.doi.org/10.5281/zenodo.7989604
+- Shigapov, R (2023, May 30) _FAIR Data Week: I for Interoperable. FAIR Data Week_ Online: Zenodo www.doi.org/10.5281/zenodo.7993734
+- Shigapov, R (2023, May 30) _FAIR Data Week: R for Reusable. FAIR Data Week_ Online: Zenodowww.doi.org/10.5281/zenodo.7997249
+- The Open University (2025) _FAIR Principles_www.university.open.ac.uk/library-research-support/research-data-management/fair-principles
+- UK Data Service (2025) _Recommended Formats_ www.ukdataservice.ac.uk/learning-hub/research-data-management/format-your-data/recommended-formats/
+- University of Cambridge (2025) _FAIR Principles_ www.data.cam.ac.uk/about/fair-principles
+- University of Oxford (2025) Sustainable Digital Scholarship: FAIR in 60 seconds [Online video] www.portal.sds.ox.ac.uk/articles/media/Data_tips_FAIR_principles_in_60_seconds/28323506?file=52119107
+- University of Sheffield (2025) _FAIR case studies: good practice on FAIR data and software_ www.sheffield.ac.uk/openresearch/faircasestudies
+- Van den Eynden, V. (2020) _Exercise: FAIRness of a dataset._ UK: UK Data Service. www.https://ukdataservice.ac.uk/app/uploads/exercise_fairdata.pdf
