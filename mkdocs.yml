@@ -24,13 +24,13 @@ nav:
     - Unit 2.6 Creating Metadata: "introduction/2.6 Creating metadata, study level.md"
     - Unit 2.7 Summary: "introduction/2.7 Introduction summary.md"  
 markdown_extensions:
+  - admonition
+  - pymdownx.details
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
-  - admonition
-  - pymdownx.details
 
 extra_css:
   - stylesheets/extra.css
