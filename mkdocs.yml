@@ -8,8 +8,8 @@ theme:
   font:
     text: Source Sans Pro  
 nav:
-  - Introduction to Metadata course: 
-    - Course introduction: "introduction/1.0 Module Introduction.md"
+  - Introductory course: 
+    - Getting started: "introduction/1.0 Module Introduction.md"
     - Unit 1.1 Research Data: "introduction/1.1 Research data.md"
     - Unit 1.2 Research Data Management: "introduction/1.2 Research data management.md"
     - Unit 1.3 FAIR: "introduction/1.3 FAIR.md"
