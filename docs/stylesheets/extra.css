@@ -12,10 +12,11 @@
 
 .md-typeset .admonition {
   font-size: 1.1em;
-
+}
   
 .md-typeset .tabbed-content {
   font-size: 1.2em
+}
 
 .md-typeset .admonition.note > .admonition-title::before {
   content: none; /* Removes the icon */
