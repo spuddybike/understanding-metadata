@@ -10,3 +10,7 @@
   padding: 10px;
 }
 
+.md-typeset .admonition.note > .admonition-title::before {
+  content: none; /* Removes the icon */
+}
+
