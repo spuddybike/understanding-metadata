@@ -34,3 +34,14 @@
   padding: 1rem;            /* optional: spacing inside */
 }
 
+.small-card {
+    font-size: 0.85rem;       /* Smaller text */
+    padding: 10px;            /* Compact padding */
+    border-radius: 8px;
+}
+
+.blue-card {
+    background-color: #e3f2fd; /* Light blue */
+}
+
+
