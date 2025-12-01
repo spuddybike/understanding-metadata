@@ -1,6 +1,14 @@
 
 
-### Unit 1.2 Research Data Management
+## Unit 1.1 Research data
+
+- ['University of Cambridge (2025) What is research data?'](www.data.cam.ac.uk/about/what)
+- [Wikipedia (2025) Data](www.en.wikipedia.org/wiki/Data)
+- [IBM (2025) What is Data?](https://www.ibm.com/think/topics/data)
+- [CODATA (2025) RDM Terminology](https://vocabs.ardc.edu.au/viewById/685)
+- ['CLOSER (2025) Basics of research data management'](closer.ac.uk/training-hub/data-management/understanding-research-data-management/basics-of-research-data-management/)
+
+## Unit 1.2 Research Data Management
 - California Digital Library (2024) DMP Tool https://dmptool.org/
 - CESSDA Training Team (2017 - 2022) _CESSDA Data Management Expert Guide._Bergen, Norway: CESSDA ERIC. https://dmeg.cessda.eu/
 - Digital Curation Centre (2025) DMPonline https://dmponline.dcc.ac.uk/)
@@ -80,7 +88,7 @@ www.howtofair.dk/how-to-fair/metadata/
 - University of Sheffield (2025) _FAIR case studies: good practice on FAIR data and software_ www.sheffield.ac.uk/openresearch/faircasestudies
 - Van den Eynden, V. (2020) _Exercise: FAIRness of a dataset._ UK: UK Data Service. www.https://ukdataservice.ac.uk/app/uploads/exercise_fairdata.pdf
 
-## Metadata in the research lifecycle 
+## Unit 2.2 Metadata in the research lifecycle 
 
 - Australian Research Data Commons (2025) _Data Provenance Metadata: Builds Trust, Credibility and Reproducibility_  www.ardc.edu.au/article/data-provenance-metadata-builds-trust-credibility-and-reproducibility/#:~:text=Data%20provenance%2C%20a%20type%20of,whom%20the%20data%20is%20collectedELIXIR (2025) _Research Data Management Toolkit_ www.rdmkit.elixir-europe.org/data_life_cycle
 - CESSDA (2025) _Data Management Expert Guide_ www.dmeg.cessda.eu/Data-Management-Expert-Guide
@@ -91,3 +99,22 @@ www.howtofair.dk/how-to-fair/metadata/
 - UK Data Service (2025) _Research data management_ www.ukdataservice.ac.uk/learning-hub/research-data-management/
 - UK Data Service (2019) _Research Data Lifecycle_ [Online Video] www.youtu.be/-wjFMMQD3UA
 - University of Vienna (2025) _The research data lifecycle_ www.rdm.univie.ac.at/what-is-research-data-management/the-research-data-lifecycle/
+
+## Unit 2.4 Controlled vocabularies
+
+- NBISweden (2020) _Controlled vocabularies & ontologies_ www.nbisweden.github.io/module-metadata-dm-practices/02-ontologies/index.html
+- Dzikowski, C., Bell, D., Gregory, A. (DDI Alliance and CODATA) (2022) _DDI Controlled Vocabularies_ [Online video] www.codata.org/initiatives/data-skills/ddi-training-webinars/ddi-controlled-vocabularies-the-cessda-workbench-skos-and-xkos/
+- Gourley, D., Zhang, A. B. (2009) 'Creating metadata' pp 73-88 in _Creating Digital Collections: A Practical Guide_ Chandos Available at: 
+https://doi.org/10.1016/B978-1-84334-396-7.50006-7
+- September 2020; updated April 2021 to add citation link and clarify Term List examples
+Childress, D., Gueguen, G., Hardesty, J., Pattillo, R., Radio, E., Rayle, L. (2020) Decision Tree Levels for Controlled Vocabularies _Samvera_ www.docs.google.com/document/d/1YB7ugyI8yJPWE8qI6J8pwkD8RNLOIxv5NIgr30-HAo8/edit?tab=t.0#heading=h.c19wz64z9fbz
+- DDI (2025) DDI and Controlled Vocabularies https://doi.org/10.5281/zenodo.17235506
+- University of Pittsburgh (2025) _What are taxonomies and controlled vocabularies?_ www.pitt.libguides.com/metadatadiscovery/controlledvocabularies
+
+## Unit 2.5 Metadata standards
+
+- UK Data Service (2025) _Metadata_ www.ukdataservice.ac.uk/learning-hub/research-data-management/document-your-data/metadata/
+- NBISweden (2020) _Metadata standards_ www.nbisweden.github.io/module-metadata-dm-practices/03-metadata-standards/index.html
+- [Childhood environment and adult mental well-being](https://learning.closer.ac.uk/researchcasestudies/childhood-environment-and-adult-mental-well-being/)
+- CLOSER (2025) 'The rise of the obesity epidemic' [Online] (https://learning.closer.ac.uk/researchcasestudies/the-rise-of-the-obesity-epidemic/)
+- Johnson, W., Li, L., Kuh, D. and Hardy, R. (2015) How has the age-related process of overweight or obesity development changed over time? Co-ordinated analyses of individual participant data from five United Kingdom Birth Cohorts. PLOS Medicine 12(5), e1001828.
