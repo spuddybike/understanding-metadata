@@ -6,7 +6,7 @@ This is an evolving resource developed by CLOSER's Metadata team to create teach
 
 If you find any errors or want to suggest improvements, please [post an issue at](https://github.com/CLOSER-Cohorts/understanding-metadata/issues)
 
-[Start the Introduction course](</introduction/1.0 Module Introduction.md>){ .md-button }
+[Start the Introduction course](<docs/introduction/1.0 Module Introduction.md>){ .md-button }
 
 <hr>
 
