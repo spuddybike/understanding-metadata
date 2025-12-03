@@ -6,17 +6,17 @@ This is an evolving resource developed by CLOSER's Metadata team to create teach
 
 If you find any errors or want to suggest improvements, please [post an issue at](https://github.com/CLOSER-Cohorts/understanding-metadata/issues)
 
-<hr>
-
 [Start the Introduction course](<introduction/1.0 Module Introduction.md>){ .md-button }
+
+<hr>
 
 ## Feedback on the site
 
 We are running a [**short survey**](https://forms.office.com/Pages/ResponsePage.aspx?id=_oivH5ipW0yTySEKEdmlwq3y4WTeovdKhPNGBjVtQslUM0syVVU5VFJPUlg2VjVFU0FMUU5ZWldTWS4u) to get more general feedback, if you are able to find 10 minutes to complete it once you've reviewed the course.
 
-<hr>
-
 [Give feedback for the Introduction course](https://forms.office.com/Pages/ResponsePage.aspx?id=_oivH5ipW0yTySEKEdmlwq3y4WTeovdKhPNGBjVtQslUM0syVVU5VFJPUlg2VjVFU0FMUU5ZWldTWS4u){ .md-button }
+
+<hr>
 
 ## Reusing our Materials
 
