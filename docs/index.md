@@ -8,7 +8,7 @@ If you find any errors or want to suggest improvements, please [post an issue at
 
 <hr>
 
-[Start the Introduction course](<docs/introduction/1.0 Module Introduction.md>){ .md-button }
+[Start the Introduction course](<introduction/1.0 Module Introduction.md>){ .md-button }
 
 ## Feedback on the site
 
