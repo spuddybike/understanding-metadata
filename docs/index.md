@@ -6,8 +6,6 @@ This is an evolving resource developed by CLOSER's Metadata team to create teach
 
 If you find any errors or want to suggest improvements, please [post an issue at](https://github.com/CLOSER-Cohorts/understanding-metadata/issues)
 
-[Start the Introduction course](<introduction/1.0 Module Introduction.md>){ .md-button }
-
 <hr>
 
 ## Feedback on the site
@@ -52,3 +50,7 @@ This work is licensed under a
 [cc-by-nc-sa]: http://creativecommons.org/licenses/by-nc-sa/4.0/
 [cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
 [cc-by-nc-sa-shield]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg
+
+
+[Start the Introduction course](<introduction/1.0 Module Introduction.md>){ .md-button }
+
