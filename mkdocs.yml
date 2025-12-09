@@ -4,6 +4,7 @@ theme:
   name: material
   features:
     - navigation.expand
+    - content.tooltips
   logo: assets/closer.png
   font:
     text: Source Sans Pro  
