@@ -22,10 +22,12 @@ nav:
     - Unit 2.6 Creating Metadata: "introduction/2.6 Creating metadata, study level.md"
     - Unit 2.7 Summary: "introduction/2.7 Introduction summary.md"  
 markdown_extensions:
+  - abbr
   - admonition
   - attr_list
   - md_in_html
   - pymdownx.details
+  - pymdownx.snippets
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid
