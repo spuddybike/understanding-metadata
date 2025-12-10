@@ -4,7 +4,7 @@
 
 This is an evolving resource developed by CLOSER's Metadata team to create teaching and upskilling resources to improve the understanding of metadata to support the better use and understanding of research data.
 
-If you find any errors or want to suggest improvements, please [post an issue at](https://github.com/CLOSER-Cohorts/understanding-metadata/issues)
+If you find any errors or want to suggest improvements, please [post an issue at the github respository here.](https://github.com/CLOSER-Cohorts/understanding-metadata/issues)
 
 [Start the Introduction course](<introduction/1.0 Module Introduction.md>){ .md-button }
 
