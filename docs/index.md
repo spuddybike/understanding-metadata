@@ -26,7 +26,7 @@ If you reference the work: please use the following citation
 
 ### APA
 
-Mills, H., Oldroyd, B., Johnson, J., White, S., & Reed, K. (2025). Understanding Metadata (Version 1.0) [Computer software]. https://github.com/CLOSER-Cohorts/understanding-metadata
+Mills, H., Oldroyd, B., Johnson, J., White, S., & Reed, K. (2025). Understanding Metadata (Version 1.0) [Online course]. https://github.com/CLOSER-Cohorts/understanding-metadata
 
 ### BIBTEX
 
