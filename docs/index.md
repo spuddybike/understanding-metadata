@@ -34,7 +34,7 @@ Mills, H., Oldroyd, B., Johnson, J., White, S., & Reed, K. (2025). Understanding
 author = {Mills, Hayley and Oldroyd, Becky and Johnson, Jon and White, Sarah and Reed, Kate},
 license = {CC-BY-NC-SA},
 month = dec,
-title = {{Understanding Metadata}},
+title = {Understanding Metadata},
 url = {https://github.com/CLOSER-Cohorts/understanding-metadata},
 version = {1.0},
 year = {2025}
