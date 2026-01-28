@@ -10,7 +10,6 @@
   padding: 10px;
 }
 
-
 .md-tabs__link {
     font-size: 1.1rem; 
     font-weight: bold; /* Controls font size of tabbed content */
@@ -39,4 +38,7 @@ h1, h2 {
     font-weight: 900; /* Optional: make them bolder */
 }
 
+.md-header {
+  height: 70px;
+}
 
