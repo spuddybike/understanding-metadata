@@ -38,7 +38,8 @@ h1, h2 {
     font-weight: 900; /* Optional: make them bolder */
 }
 
-nav {
-  height: 100 px;
+.md-header {
+  background-color: #00ADEF;
+  height: 150%;
 }
 
