@@ -8,7 +8,7 @@ This is an evolving resource developed by CLOSER's Metadata team to create teach
 
 ### Improvements and bugs
 
-If you find any errors or want to suggest improvements, please [post an issue at the github respository here.](https://github.com/CLOSER-Cohorts/understanding-metadata/issues). We will add you to the list of contributors
+If you find any errors or want to suggest improvements, please [post an issue at the github respository here](https://github.com/CLOSER-Cohorts/understanding-metadata/issues). We will add you to the list of contributors
 
 ### Feedback on the site
 
