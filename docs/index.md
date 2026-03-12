@@ -4,13 +4,13 @@
 
 This is an evolving resource developed by CLOSER's Metadata team to create teaching and upskilling resources to improve the understanding of metadata to support the better use and understanding of research data.
 
-If you find any errors or want to suggest improvements, please [post an issue at the github respository here.](https://github.com/CLOSER-Cohorts/understanding-metadata/issues)
-
 [Start the Introduction course](<introduction/1.0 Module Introduction.md>){ .md-button }
 
-<hr>
+### Improvements and bugs
 
-## Feedback on the site
+If you find any errors or want to suggest improvements, please [post an issue at the github respository here.](https://github.com/CLOSER-Cohorts/understanding-metadata/issues). We will add you to the list of contributors
+
+### Feedback on the site
 
 We are running a [**short survey**](https://forms.office.com/Pages/ResponsePage.aspx?id=_oivH5ipW0yTySEKEdmlwq3y4WTeovdKhPNGBjVtQslUM0syVVU5VFJPUlg2VjVFU0FMUU5ZWldTWS4u) to get more general feedback, if you are able to find 10 minutes to complete it once you've reviewed the course.
 
