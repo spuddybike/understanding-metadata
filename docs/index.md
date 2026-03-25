@@ -1,6 +1,6 @@
 # Resources for Understanding Metadata
 
-## Self Guided learning by CLOSER's Metadata Team
+## Self-guided learning by CLOSER's Metadata Team
 
 This is an evolving resource developed by CLOSER's Metadata team to create teaching and upskilling resources to improve the understanding of metadata to support the better use and understanding of research data.
 
@@ -8,7 +8,7 @@ This is an evolving resource developed by CLOSER's Metadata team to create teach
 
 ### Improvements and bugs
 
-If you find any errors or want to suggest improvements, please [post an issue at the github respository here](https://github.com/CLOSER-Cohorts/understanding-metadata/issues). We will add you to the list of contributors
+If you find any errors or want to suggest improvements, please [post an issue at the github repository here](https://github.com/CLOSER-Cohorts/understanding-metadata/issues). We will add you to the list of contributors
 
 ### Feedback on the site
 
@@ -18,7 +18,7 @@ We are running a [**short survey**](https://forms.office.com/Pages/ResponsePage.
 
 <hr>
 
-## Reusing our Materials
+## Reusing our materials
 
 We encourage reuse of these materials, if you do so, please respect the licencing, and let us know how you are using it.
 
