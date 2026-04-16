@@ -21,6 +21,7 @@ nav:
     - Unit 2.5 Metadata Standards: "introduction/2.5 Metadata standards.md"
     - Unit 2.6 Creating Metadata: "introduction/2.6 Creating metadata, study level.md"
     - Unit 2.7 Summary: "introduction/2.7 Introduction summary.md"  
+  - Resources: "/resources.md"
 markdown_extensions:
   - abbr
   - admonition
