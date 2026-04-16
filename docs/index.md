@@ -1,4 +1,4 @@
-# Resources for Understanding Metadata
+# Understanding Metadata
 
 ## Self-guided learning by CLOSER's Metadata Team
 
