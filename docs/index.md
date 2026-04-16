@@ -24,13 +24,9 @@ We encourage reuse of these materials, if you do so, please respect the licencin
 
 If you reference the work: please use the following citation
 
-### APA
+**APA:** Mills, H., Oldroyd, B., Johnson, J., White, S., & Reed, K. (2025). Understanding Metadata (Version 1.0) [Online course]. https://github.com/CLOSER-Cohorts/understanding-metadata
 
-Mills, H., Oldroyd, B., Johnson, J., White, S., & Reed, K. (2025). Understanding Metadata (Version 1.0) [Online course]. https://github.com/CLOSER-Cohorts/understanding-metadata
-
-### BIBTEX
-
-@software{Mills_Understanding_Metadata_2025,
+**BIBTEX:** @software{Mills_Understanding_Metadata_2025,
 author = {Mills, Hayley and Oldroyd, Becky and Johnson, Jon and White, Sarah and Reed, Kate},
 license = {CC-BY-NC-SA},
 month = dec,
