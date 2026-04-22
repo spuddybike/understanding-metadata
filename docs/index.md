@@ -10,11 +10,11 @@ This is an evolving resource developed by CLOSER's Metadata team to create teach
 
 If you find any errors or want to suggest improvements, please [post an issue at the github repository here](https://github.com/CLOSER-Cohorts/understanding-metadata/issues). We will add you to the list of contributors
 
-### Feedback on the site
+### Feedback on the course
 
 We are running a *short survey* to get more general feedback, if you are able to find 10 minutes to complete it once you've reviewed the course.
 
-[Give feedback for the Introductory Module](https://qualtrics.ucl.ac.uk/jfe/form/SV_a4y7ldYQWtpY9AG){ .md-button }
+[Leave your feedback](https://qualtrics.ucl.ac.uk/jfe/form/SV_a4y7ldYQWtpY9AG){ .md-button }
 
 <hr>
 
