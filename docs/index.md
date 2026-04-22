@@ -12,7 +12,7 @@ If you find any errors or want to suggest improvements, please [post an issue at
 
 ### Feedback on the site
 
-We are running a **short survey** to get more general feedback, if you are able to find 10 minutes to complete it once you've reviewed the course.
+We are running a *short survey* to get more general feedback, if you are able to find 10 minutes to complete it once you've reviewed the course.
 
 [Give feedback for the Introduction course](https://qualtrics.ucl.ac.uk/jfe/form/SV_a4y7ldYQWtpY9AG){ .md-button }
 
