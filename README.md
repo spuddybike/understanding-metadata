@@ -21,4 +21,6 @@ This work is licensed under a
 
 ---
 
-## To build locally, see https://squidfunk.github.io/mkdocs-material/getting-started/
+## To build locally
+
+see https://squidfunk.github.io/mkdocs-material/getting-started/
