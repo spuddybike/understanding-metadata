@@ -3,7 +3,7 @@ site_name: Understanding Metadata
 theme:
   name: material
   features:
-    - navigation.expand
+    - navigation.prune
     - content.tooltips
   logo: assets/closer.png
   font:
