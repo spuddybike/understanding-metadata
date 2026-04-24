@@ -3,7 +3,8 @@ site_name: Understanding Metadata
 theme:
   name: material
   features:
-    - navigation.prune
+    - navigation.expand
+#    - navigation.prune  # use this to collapse twhen more than one module is live
     - content.tooltips
   logo: assets/closer.png
   font:
