@@ -71,3 +71,18 @@
 ## Question and Questionnaire metadata and documentation 
 - CLOSER Technical Wiki [Document a Questionnaire](https://ucldata.atlassian.net/wiki/spaces/CLOS/pages/37323067/Document+a+Questionnaire)
 - CLOSER Technical Wiki [metadata entry training for CLOSER Discovery studies](https://ucldata.atlassian.net/wiki/spaces/CLOS/pages/566099970/Metadata+training)
+
+## Controlled Vocabularies 
+- [Census 2021 dictionary](https://www.ons.gov.uk/census/census2021dictionary)
+- [CESSDA Vocabulary Service](https://vocabularies.cessda.eu/)
+- [EU-vocabularies](https://op.europa.eu/en/web/eu-vocabularies)
+- [European Language Social Science Thesaurus](https://elsst.cessda.eu/)
+- [Homosaurus- LGBTQ+ vocabulary](https://homosaurus.org/)
+- [The Getty Research Institute- Getty Vocabularies](https://www.getty.edu/research/tools/vocabularies/)
+- [Library of Congress of Controlled Vocabularies](https://www.loc.gov/librarians/controlled-vocabularies/)
+- [Medical Subject Headings](https://www.nlm.nih.gov/mesh/meshhome.html)
+- [NERC vocabulary server](https://vocab.nerc.ac.uk/)
+- [Ontology Lookup Service](https://www.ebi.ac.uk/ols4/)
+
+
+
