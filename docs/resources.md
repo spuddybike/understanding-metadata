@@ -67,3 +67,7 @@
 - Explore UK Data Service's conception of [data lifecycle here](https://ukdataservice.ac.uk/learning-hub/research-data-management/)
 - [Office of Library and Information Services Data lifecycle](https://sunyolis.libguides.com/c.php?g=1290338&p=9475793#:~:text=Research%20Data%20Management%20is%20a,at%20the%20Plan%20%26%20Design%20phase.)
 - [University of Vienna: the research data lifecycle](https://rdm.univie.ac.at/what-is-research-data-management/the-research-data-lifecycle/)
+
+## Question and Questionnaire metadata and documentation 
+- CLOSER Technical Wiki [Document a Questionnaire](https://ucldata.atlassian.net/wiki/spaces/CLOS/pages/37323067/Document+a+Questionnaire)
+- CLOSER Technical Wiki [metadata entry training for CLOSER Discovery studies](https://ucldata.atlassian.net/wiki/spaces/CLOS/pages/566099970/Metadata+training)
